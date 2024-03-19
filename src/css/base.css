@@ -1,0 +1,128 @@
+/* Base styles for our elements, handy for sensible defaults/fallbacks */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--mc-font-primary);
+  line-height: var(--mc-line-height);
+}
+
+a {
+  color: var(--mc-color-primary);
+  transition: var(--mc-transition-time);
+  &:hover {
+    text-decoration: none;
+    color: var(--mc-color-secondary);
+  }
+  &:focus-visible {
+    outline: var(--mc-border);
+    outline-offset: var(--mc-border-width);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.mc-heading,
+.mc-heading-large,
+.mc-heading-larger,
+.mc-heading-largest {
+  font-family: var(--mc-font-secondary);
+  font-weight: bold;
+  line-height: var(--mc-line-height-small);
+  text-wrap: balance;
+}
+
+h4,
+.mc-heading {
+  font-size: var(--mc-font-size-responsive-heading);
+}
+h3,
+.mc-heading-large {
+  font-size: var(--mc-font-size-responsive-heading-large);
+}
+h2,
+.mc-heading-larger {
+  font-size: var(--mc-font-size-responsive-heading-larger);
+}
+h1,
+.mc-heading-largest {
+  font-size: var(--mc-font-size-responsive-heading-largest);
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  transition: var(--mc-transition-time);
+  &:focus-visible {
+    outline: var(--mc-border);
+    outline-offset: var(--mc-border-width);
+  }
+}
+
+button {
+  background-color: var(--mc-color-primary);
+  border: var(--mc-border);
+  padding: var(--mc-spacing-small) var(--mc-spacing);
+  color: var(--mc-color-white);
+}
+button:where(:focus, :hover) {
+  background-color: var(--mc-color-white);
+  color: var(--mc-color-primary);
+}
+
+code {
+  --mc-code-color: var(--mc-color-white);
+  --mc-code-background-color: var(--mc-color-secondary);
+  --mc-code-font: var(--mc-font-secondary);
+  display: inline-block;
+  margin-bottom: 2px;
+  padding: var(--mc-spacing-smallest);
+  font-family: var(--mc-code-font);
+  background-color: var(--mc-code-background-color);
+  color: var(--mc-code-color);
+}
+
+pre code {
+  --mc-code-color: var(--mc-color-primary);
+  --mc-code-background-color: transparent;
+}
+
+blockquote {
+  padding: var(--mc-spacing-small) var(--mc-spacing);
+  border-left: var(--mc-border);
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: var(--mc-spacing);
+  border: var(--mc-border);
+  text-align: left;
+  th,
+  td {
+    padding: var(--mc-spacing);
+    border-bottom: var(--mc-border);
+  }
+  th {
+    background-color: var(--mc-color-secondary);
+    color: var(--mc-color-white);
+  }
+}
+
