@@ -66,28 +66,16 @@ export class Footer extends HTMLElement {
               <mc-grid gap="large" size="quarters">
                   <div class="mc-footer__menu">
                     <ul>
-                      <li><a href="/">Home</a></li>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Our Work</a></li>
-                      <li><a href="#">Our Services</a></li>
-                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="https://mark.ie">Home</a></li>
+                      <li><a href="https://mark.ie/about/">About Me</a></li>
                     </ul>
-                    </div>
+                  </div>
                   <div class="mc-footer__menu">
                     <ul>
-                      <li><a href="#">Products</a></li>
-                      <li><a href="#">Pricing</a></li>
-                      <li><a href="#">FAQs</a></li>
-                      <li><a href="#">Returns</a></li>
+                      <li><a href="https://mark.ie/blog">My Blog</a></li>
+                      <li><a href="https://markie.eo.page/xrpd5">Newsletter</a></li>
                     </ul>
-                    </div>
-                  <div class="mc-footer__menu">
-                    <ul>
-                      <li><a href="https://mark.ie/">Blog</a></li>
-                      <li><a href="https://mark.ie/">News</a></li>
-                      <li><a href="https://mark.ie/">Events</a></li>
-                    </ul>
-                    </div>
+                  </div>
                   <div class="mc-footer__menu">
                     <ul>
                       <li><a href="https://github.com/markconroy/">GitHub</a></li>
@@ -96,12 +84,12 @@ export class Footer extends HTMLElement {
                       <li><a href="https://www.instagram.com/markyconroy/">Instagram</a></li>
                       <li><a href="https://www.youtube.com/@markyconroy">YouTube</a></li>
                     </ul>
-                    </div>
+                  </div>
 
               </mc-grid>
             </nav>
             <div class="mc-footer__credits">
-              <p>Created by <a href="https://mark.ie">Mark Conroy</a> | Code available on <a href="https://github.com/markconroy/web-components-design-system">GitHub</a></p>
+              <p>Created by <a href="https://mark.ie">Mark Conroy</a> | Code available on <a href="https://github.com/markconroy/allotments">GitHub</a></p>
             </div>
           </div>
         </mc-container>

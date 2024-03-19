@@ -56,40 +56,13 @@ export class MainNav extends HTMLElement {
       </div>
       <nav class="mc-main-nav-dialog__nav">
         <ul>
-          <li>Utility Components
-          <ul>
-            <li><a href="/colors">Colors</a></li>
-            <li><a href="/typography">Typography</a></li>
-            <li><a href="/containers">Containers</a></li>
-            <li><a href="/grid-system">Grid system</a></li>
-          </ul>
-          </li>
-          <li>Design Components
-          <ul>
-            <li><a href="/header">Header</a></li>
-            <li><a href="/footer">Footer</a></li>
-            <li><a href="/breadcrumbs">Breadcrumbs</a></li>
-            <li><a href="/cards">Cards</a></li>
-            </ul>
-          </li>
-          <li>Sample Pages
-            <ul>
-              <li><a href="/sample-pages/content-page">Content Page</a></li>
-              <li><a href="/sample-pages/listing-page">Listing Page</a></li>
-              <li><a href="/sample-pages/gallery">Gallery Page</a></li>
-            </ul>
-          </li>
-          <li>Meta Links
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="https://mark.ie" target="_blank">Mark.ie</a></li>
-              <li><a href="https://github.com/markconroy" target="_blank">Mark on GitHub</a></li>
-              <li><a href="https://www.linkedin.com/in/conroymark/" target="_blank">Mark on LinkedIn</a></li>
-              <li><a href="https://www.youtube.com/@markyconroy" target="_blank">Mark on YouTube</a></li>
-              <li><a href="https://github.com/markconroy" target="_blank">Mark on GitHub</a></li>
-              <li><a href="https://twitter.com/markconroy" target="_blank">Mark on Twitter</a></li>
-            </ul>
-          </li>
+          <li><a href="/">Home</a></li>
+          <li><a href="https://mark.ie" target="_blank">Mark.ie</a></li>
+          <li><a href="https://github.com/markconroy" target="_blank">Mark on GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/conroymark/" target="_blank">Mark on LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@markyconroy" target="_blank">Mark on YouTube</a></li>
+          <li><a href="https://github.com/markconroy" target="_blank">Mark on GitHub</a></li>
+          <li><a href="https://twitter.com/markconroy" target="_blank">Mark on Twitter</a></li>
         </ul>
       </nav>
     `;

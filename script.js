@@ -7,9 +7,9 @@ table.innerHTML = `
     <tr>
       <th>County</th>
       <th>Provides Allotments</th>
-      <th>Number (31/12/18)</th>
+      <th>Number Provided</th>
       <th>For Public Use</th>
-      <th>Public Use Number (31/12/18)</th>
+      <th>Number for Public Use</th>
     </tr>
   </thead>
   <tbody></tbody>
